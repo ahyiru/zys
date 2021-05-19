@@ -1,4 +1,4 @@
-# router
+# router使用示例
 
 ## useRouter使用
 
@@ -159,7 +159,7 @@ const props={
 
 ![Link](./assets/images/2.png)
 
-[代码地址]()
+[代码地址](https://github.com/ahyiru/zys/tree/master/blog/router)
 
 
 ![demo](./assets/images/3.png)

@@ -47,16 +47,16 @@ app.get('*',function(request,response){
 });
 
 /* https */
-const cert=path.resolve(__dirname,'../cert');
+/* const cert=path.resolve(__dirname,'../cert');
 const options={
   key:fs.readFileSync(`${cert}/server.key`),
   cert:fs.readFileSync(`${cert}/server.cert`),
   // passphrase: 'YOUR PASSPHRASE HERE',
 };
-const httpsServer=https.createServer(options,app);
+const httpsServer=https.createServer(options,app); */
 /* https */
 
-httpsServer.listen(app.get('port'),(err)=>{
+app.listen(app.get('port'),(err)=>{
   if (err) {
     console.log(err);
     return false;

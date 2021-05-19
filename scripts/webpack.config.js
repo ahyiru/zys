@@ -277,8 +277,6 @@ module.exports={
       '@app':app,
       '@configs':path.resolve(__dirname, '../configs'),
       '@common':path.resolve(__dirname, '../commons'),
-      '@src':path.resolve(__dirname, '../playground/src'),
-      '@vueCommon':path.resolve(__dirname, '../playground/vue'),
       '@utils':path.resolve(app, 'utils'),
       'vue$':'vue/dist/vue.esm-bundler.js',
     },
