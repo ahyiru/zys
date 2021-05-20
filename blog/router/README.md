@@ -1,5 +1,7 @@
 # router使用示例
 
+[useRouter的使用](https://github.com/ihuxy/doc/blob/master/router/useRouter%E4%BD%BF%E7%94%A8.md)
+
 ## useRouter使用
 
 ```javascript
