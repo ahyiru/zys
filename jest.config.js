@@ -1,5 +1,6 @@
 module.exports={
   verbose:true,
+  testEnvironment:'jsdom',
   coverageThreshold:{
     global:{
       branches:0,
@@ -20,7 +21,7 @@ module.exports={
     '@src(.*)$':'<rootDir>/playground/src/$1',
   },
   transform:{
-    '^.+\\.tsx?$':'ts-jest',
+    // '^.+\\.tsx?$':'ts-jest',
     '^.+\\.jsx?$':'babel-jest',
   },
   transformIgnorePatterns:['/node_modules/'],

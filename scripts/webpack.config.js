@@ -148,6 +148,17 @@ const rules=[
     include:[app],
   },
   {
+    test:/\.md$/,
+    use:[
+      {
+        loader:'html-loader',
+        options:{
+          minimize:false,
+        },
+      },
+    ],
+  },
+  {
     test:/\.(jpe?g|png|gif|psd|bmp|ico|webp|svg)/i,
     loader:'url-loader',
     options:{

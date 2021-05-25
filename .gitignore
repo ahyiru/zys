@@ -46,7 +46,7 @@ Thumbs.db
 __snapshots__
 
 # build
-# dist
+dist
 build
 
 
