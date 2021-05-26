@@ -15,6 +15,7 @@ const cfg={
   'blog/mongodb':{...app,PORT:7060,PRO_PORT:7061},
   'blog/modules':{...app,PORT:7070,PRO_PORT:7071},
   'blog/boilerplate':{...app,PORT:7080,PRO_PORT:7081},
+  'blog/doc':{...app,PORT:7090,PRO_PORT:7091},
 };
 
 const configs=cfg[appName]||app;

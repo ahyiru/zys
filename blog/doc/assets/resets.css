@@ -1,0 +1,17 @@
+h1,h2,h3,h4,h5,h6,p{
+  color:#666;
+}
+a{
+  color:#666;
+  &:active,&.active{
+    color:#40a9ff;
+  }
+  &:hover{
+    color:#40a9ff;
+  }
+}
+
+
+
+
+
